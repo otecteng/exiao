@@ -12,6 +12,6 @@ public class LessonTest extends TestCase {
     @Test
     public void hello() {
         System.out.println("this is a lesson test !");
-        Assert.assertEquals(1, 1);
+        Assert.assertEquals(1, 2);
     }
 }
