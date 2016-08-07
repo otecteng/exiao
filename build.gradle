@@ -16,7 +16,7 @@ apply plugin: 'spring-boot'
 
 jar {
 	baseName = 'exiao'
-	version = '0.0.1-SNAPSHOT'
+	version = '0.0.1'
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -45,4 +45,7 @@ eclipse {
 }
 test {
 	testLogging.showStandardStreams = true
+	filter {
+		includeTestsMatching "*Test"
+	}
 }
