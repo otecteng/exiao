@@ -11,7 +11,7 @@ buildscript {
 }
 repositories {
 	maven {
-		url "http://nexus.local:8081/nexus/content/groups/public"
+		url "http://nexus.local:8081/repository/maven-public/"
 	}
 }
 apply plugin: 'java'
