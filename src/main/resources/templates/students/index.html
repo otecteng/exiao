@@ -1,0 +1,13 @@
+<div th:unless="${#lists.isEmpty(students)}">
+    <dl id="list" th:each="book : ${students}">
+        <dt name="student">
+            <span th:text="${book.name}">Title</span> by
+            <span th:text="${book.phone}">Author</span>
+            (ISBN: <span th:text="${book.gender}">ISBN</span>)
+        </dt>
+    </dl>
+</div>
+<div><a id="btn_new" href="/students/new">create new</a></div>
+<div id="prompt" th:if="${#lists.isEmpty(students)}">
+    <p>You have no student in your student list</p>
+</div>

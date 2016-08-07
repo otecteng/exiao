@@ -12,7 +12,8 @@ public class DemoApplication {
 	}
 
 
-	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addRedirectViewController("/", "/lessons");
-	}
+//	public void addViewControllers(ViewControllerRegistry registry) {
+//		registry.
+//		registry.addRedirectViewController("/", "/lessons");
+//	}
 }

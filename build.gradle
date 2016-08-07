@@ -33,6 +33,7 @@ dependencies {
 	compile('org.postgresql:postgresql')
 	compile('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile("org.seleniumhq.selenium:selenium-java")
 }
 
 
