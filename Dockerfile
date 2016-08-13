@@ -1,4 +1,5 @@
-FROM repo:5000/java:8
+#FROM repo:5000/java:8
+FROM java:8
 VOLUME /tmp
 ADD build/libs/exiao-0.0.1.jar app.jar
 RUN sh -c 'touch /app.jar'
