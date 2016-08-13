@@ -9,6 +9,9 @@ buildscript {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 	}
 }
+repositories {
+	mavenCentral()
+}
 //repositories {
 //	maven {
 //		url "http://nexus.local:8081/repository/maven-public/"
